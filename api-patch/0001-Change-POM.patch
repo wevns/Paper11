@@ -1,0 +1,35 @@
+From f8d7dc6f641f86818332a63bf78f3e8319d30daf Mon Sep 17 00:00:00 2001
+From: Firestarter <w@william.gg>
+Date: Wed, 31 Mar 2021 13:39:46 +1000
+Subject: [PATCH] Change POM
+
+---
+ pom.xml | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/pom.xml b/pom.xml
+index 2fa2dd7c..e5fbc9e6 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -4,13 +4,13 @@
+     <modelVersion>4.0.0</modelVersion>
+ 
+     <parent>
+-        <groupId>com.destroystokyo.paper</groupId>
+-        <artifactId>paper-parent</artifactId>
+-        <version>dev-SNAPSHOT</version>
++        <groupId>gg.william.paper11</groupId>
++        <artifactId>paper11-parent</artifactId>
++        <version>dev-1.12.2-R0.1-SNAPSHOT</version>
+     </parent>
+ 
+-    <groupId>com.destroystokyo.paper</groupId>
+-    <artifactId>paper-api</artifactId>
++    <groupId>gg.william.paper11</groupId>
++    <artifactId>paper11-api</artifactId>
+     <version>1.12.2-R0.1-SNAPSHOT</version>
+     <packaging>jar</packaging>
+ 
+-- 
+2.31.1
+

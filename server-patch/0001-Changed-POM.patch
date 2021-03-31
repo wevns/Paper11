@@ -1,0 +1,40 @@
+From c8a49523e75d6b0fd70e9b71beffc8ff345dc0e0 Mon Sep 17 00:00:00 2001
+From: Firestarter <w@william.gg>
+Date: Wed, 31 Mar 2021 13:43:57 +1000
+Subject: [PATCH] Changed POM
+
+---
+ pom.xml | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/pom.xml b/pom.xml
+index 13284388..d45c7a67 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -1,8 +1,8 @@
+ <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+     <modelVersion>4.0.0</modelVersion>
+-    <groupId>com.destroystokyo.paper</groupId>
+-    <artifactId>paper</artifactId>
++    <groupId>gg.william.paper</groupId>
++    <artifactId>paper11</artifactId>
+     <packaging>jar</packaging>
+     <version>1.12.2-R0.1-SNAPSHOT</version>
+     <name>Paper</name>
+@@ -21,9 +21,9 @@
+     </properties>
+ 
+     <parent>
+-        <groupId>com.destroystokyo.paper</groupId>
+-        <artifactId>paper-parent</artifactId>
+-        <version>dev-SNAPSHOT</version>
++        <groupId>gg.william.paper11</groupId>
++        <artifactId>paper11-parent</artifactId>
++        <version>dev-1.12.2-R0.1-SNAPSHOT</version>
+         <relativePath>../pom.xml</relativePath>
+     </parent>
+ 
+-- 
+2.31.1
+

@@ -1,0 +1,28 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>gg.william.paper11</groupId>
+    <artifactId>paper11-parent</artifactId>
+    <version>dev-1.12.2-R0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <repositories>
+        <repository>
+            <id>empireminecraft</id>
+            <url>https://repo.aikar.co/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>aikar</id>
+            <url>https://repo.aikar.co/content/repositories/aikar/</url>
+        </repository>
+    </repositories>
+
+    <build>
+        <defaultGoal>install</defaultGoal>
+        <finalName>${project.artifactId}</finalName>
+    </build>
+    <modules>
+        <module>Paper11-API</module>
+        <module>Paper11-Server</module>
+    </modules>
+</project>

@@ -1,0 +1,27 @@
+From 0715bb0d370eda43c74b944939a1c5cabf1df52c Mon Sep 17 00:00:00 2001
+From: Firestarter <w@william.gg>
+Date: Wed, 31 Mar 2021 15:29:05 +1000
+Subject: [PATCH] Java 11
+
+---
+ pom.xml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/pom.xml b/pom.xml
+index e5fbc9e6..a946c0e3 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -20,8 +20,8 @@
+ 
+     <properties>
+         <!-- Paper - Bump to 1.8 - Get off your dinosaur and get on this rocket ship... -->
+-        <maven.compiler.source>1.8</maven.compiler.source>
+-        <maven.compiler.target>1.8</maven.compiler.target>
++        <maven.compiler.source>11</maven.compiler.source>
++        <maven.compiler.target>11</maven.compiler.target>
+         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     </properties>
+ 
+-- 
+2.31.1
+

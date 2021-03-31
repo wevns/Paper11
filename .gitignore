@@ -1,0 +1,7 @@
+.idea/
+target/
+*.iml
+
+mc-dev/
+Paper11-API/
+Paper11-Server/
