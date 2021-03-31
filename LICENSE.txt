@@ -1,0 +1,3 @@
+All files in the server-patch and api-patch directories are licensed under version 3 of the GNU Affero General Public License.
+
+
